@@ -1,0 +1,14 @@
+.more {
+    text-align: center;
+    font-size: large;
+}
+
+.more a {
+    text-decoration: none;
+    color: #E2211C;
+    border: 1px solid #E2211C;
+    padding: 1% 3% 1% 3%;
+    border-radius: 5px;
+}
+
+.banner_sp:hover {}

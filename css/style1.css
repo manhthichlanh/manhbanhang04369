@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #F4F8FA;
+    font-family: Roboto, "Helvetica Neue"
+}
+
+header {
+    line-height: 100px;
+    padding-left: 30px;
+}
+
+header img {
+    width: 100%;
+}
+
+svg {
+    margin-top: -5px;
+}
+
+nav {
+    background-color: #E2211C;
+    line-height: 30px;
+    display: flex;
+}
+
+.nav-link:hover {
+    color: #FF9B6A !important;
+    transition: linear 0.5s;
+}
+
+.navbar-brand:hover {
+    transition: linear 0.5s;
+    transform: scale(1.5);
+}
+
+.dropdown-menu {
+    text-align: center;
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: #bef9fc;
+}
+
+.d-flex {
+    padding-bottom: 1%;
+}
+
+.d-flex button:hover {}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+section .cot9 {
+    background-color: #ffffff;
+}
+
+.scroll {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.mh img {
+    width: 100%;
+}
+
+.ten,
+.gia,
+.stars {
+    background-color: white;
+}
+
+section .cot3 img {
+    width: 100%;
+}
+
+section .cot3 {
+    position: relative;
+}
+
+.cot3:hover .cover {
+    box-shadow: 3px 5px 9px 3px #666666;
+    position: absolute;
+    transition: transform 0.5s;
+    transform: scale(1.1);
+    z-index: 2;
+    text-align: center;
+}
+
+.cot3:hover .btt {
+    display: block;
+}
+
+.tieude_1 {
+    padding-top: 5px;
+    text-align: center;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.tieude_parent {
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+}
+
+.percent {
+    margin-left: -3%;
+}
+
+.percent span {
+    font-size: small;
+    color: white;
+    background-color: #FF0000;
+    width: 13%;
+    padding: 1%;
+    line-height: 20px;
+}
+
+.percent span {
+    padding: 2px;
+}
+
+.ten {
+    line-height: 1.4;
+}
+
+.sale {
+    color: #FF0000;
+}
+
+.base {
+    color: #666666;
+    font-size: smaller;
+    text-decoration: line-through;
+}
+
+.stars {
+    margin-top: -10px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #E2211C;
+    margin-top: 500px;
+    color: white;
+    font-size: smaller;
+    padding: 5px;
+}
+
+.link {
+    text-align: left;
+}
+
+.place {
+    text-align: left;
+}
+
+.title {
+    border-bottom: 1px solid white;
+    padding-bottom: 2%;
+    font-size: larger;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.xacthuc {
+    border-top: 1px solid white;
+}
+
+.btt {
+    background-color: #E2211C;
+    text-align: center;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1490px) {
+    .ten,
+    .sale b,
+    .base {
+        font-size: smaller;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .ten,
+    .sale b,
+    .base {
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+    .ten,
+    .sale b,
+    .base {
+        font-size: x-large;
+    }
+    .percent span {
+        font-size: large;
+    }
+    .scroll-y {
+        display: none;
+    }
+    .tieude_1 h4 b {
+        font-size: smaller;
+    }
+    header {
+        padding: 0!important;
+    }
+    .scroll {
+        width: 100%;
+    }
+    .xacthuc .col-2 {
+        width: 30%;
+        padding-bottom: 2%;
+    }
+}
+
+@media only screen and (max-width: 1411px) {
+    .place,
+    .link,
+    .g,
+    .f {
+        width: 100%;
+    }
+}

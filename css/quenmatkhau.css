@@ -1,0 +1,47 @@
+.nhap {
+    color: #505050;
+    font-family: "Rubik", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-transform: none;
+}
+
+body {
+    background: #be7030;
+    background: linear-gradient(to right, #be7030, rgba(37, 117, 252, 1));
+    height: 100% !important;
+}
+
+.forgot {
+    background-color: #212529;
+    padding: 12px;
+    color: white;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+}
+
+.duoi {
+    background-color: #212529;
+}
+
+.card-body {
+    color: white;
+    background-color: #212529;
+}
+
+.card-footer {
+    background-color: #212529;
+}
+
+.btn {
+    font-size: 13px
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #76b7e9;
+    outline: 0;
+    box-shadow: 0 0 0 0px #28a745
+}

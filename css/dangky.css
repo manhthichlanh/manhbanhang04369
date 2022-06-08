@@ -1,0 +1,5 @@
+.gradient-custom {
+    background: #be7030;
+    background: linear-gradient(to right, #be7030, rgba(37, 117, 252, 1));
+    height: 100% !important;
+}

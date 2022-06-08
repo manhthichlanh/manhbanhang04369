@@ -1,0 +1,85 @@
+.title thead {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+tbody td img {
+    width: 40%;
+}
+
+tbody td input {
+    width: 40%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.sp {
+    text-align: center;
+}
+
+.sp .cotsp {
+    display: flex;
+    justify-content: center
+}
+
+.sp .col-6 img {
+    width: 20%;
+}
+
+.ghichu {
+    text-align: left;
+    font-size: larger;
+}
+
+.tongtien {
+    text-align: right;
+    font-size: larger;
+}
+
+.tongtien button {
+    border: 1px solid #E2211C;
+    height: 50px;
+}
+
+.nut1 {
+    width: 50%;
+    color: #E2211C;
+    background-color: white;
+}
+
+.nut1:hover {
+    background-color: #E2211C;
+    color: white;
+}
+
+.nut2 {
+    width: 30%;
+    color: white;
+    background-color: #E2211C;
+}
+
+textarea {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1270px) {
+    /* For mobile phones: */
+    .nut1,
+    .nut2,
+    .vc {
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    /* For mobile phones: */
+    .nut1,
+    .nut2,
+    .vc {
+        font-size: x-small;
+    }
+}
